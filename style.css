@@ -1,0 +1,193 @@
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+
+  .texts{
+    position:relative;
+    color: #4285f4;
+    font: 14px/14px roboto-regular, arial, sans-serif;
+  }
+
+  li a {
+    color: #000;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size:14px;
+  }
+  li a:hover {
+    text-decoration: underline;
+  }
+
+  .g-logo{
+    margin-top:200px;
+    margin-bottom:20px;
+    padding: 20px 0;
+  }
+  
+
+.searchbar
+{
+ /* padding: 20px 10px;  */
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 85px;
+    border: 1px solid #d0cfcf;
+    width: 550px;
+    
+}
+.searchbar:hover{
+    box-shadow: 0px 0px 10px 0px gray;
+}
+
+.searchbar:focus
+{
+	box-shadow:silver 0 2px 10px; 
+	border-color: silver;
+}
+
+.icon{
+  display: inline-block;
+  height:20px;
+  position:relative;
+  top:22px;
+  right:250px;
+}
+
+.voice{
+    height:20px;
+    position:relative;
+    top:5px;
+    left:250px;
+  }
+
+.btn
+{
+	background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+	color: #3c4043;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+	/* font-weight: 900; */
+}
+
+.btn:hover{
+    border: 1px solid #bbb4b4;
+  
+}
+
+.btn:focus{
+    border:1px solid #4885ed;
+    padding: 9px 19px;
+  }
+
+  /* Image Page Spec */
+  .text{
+    height:10px;
+    position:relative;
+    top: -50px;
+    left:150px;
+    white-space: nowrap;
+    color: #4285f4;
+    font: 20px/20px roboto-regular, arial, sans-serif;
+  }
+
+  /* Advanced Page Spec */
+  .a-logo{
+    margin-top:-70px;
+    margin-bottom:10px;
+    padding: 20px 0;
+    
+  }
+
+  .title{
+    color: red;
+    font: 20px/20px roboto-regular, arial, sans-serif;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding: 15px;
+    
+  }
+
+  #adiv2{
+    margin-left: 45px;
+    margin-top: 30px;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+    vertical-align: baseline;
+  }
+
+  .placeholders { 
+    margin-right: 10px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    padding-right: 216px;
+
+    min-width: 167px;
+    min-height: 21px;
+    vertical-align: middle;
+    width: 30%;
+ } 
+
+ .typefont{
+  float: left;
+  line-height: 16px;
+  vertical-align: middle;
+  font: 14px/14px roboto-regular, arial, sans-serif;
+ }
+
+ .submitbtn{
+  text-align: right;
+  box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 16px;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: 0;
+    padding: 0 8px;
+ }
+
+ #div{
+  margin-left: 45px;
+  margin-top: 30px;
+  width: 30%;
+ }
